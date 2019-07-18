@@ -1,24 +1,37 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from "./components/Header";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
-function App() {
+const App = ()=> {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Header/>
+        <Navbar/>
+        <div className="content">
+          <div>
+            img
+          </div>
+        <div>
+          ava+description
+        </div>
+        <div>
+          My posts
+          <div>
+            New post
+          </div>
+          <div>
+            <div>
+              post_1
+            </div>
+            <div>
+              post_2
+            </div>
+          </div>
+      </div>
+    </div>
+      <Footer/>
     </div>
   );
 }

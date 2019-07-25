@@ -4,31 +4,5 @@
     "h h"
     "n c";
     grid-template-rows: 60px 1fr;
-    grid-auto-columns: 2fr 10fr;
+    grid-auto-columns: 3fr 10fr;
 }
-
-.header {
-    grid-area: h;
-    background-color: #192e5b;
-}
-
-.nav {
-    grid-area: n;
-    background-color: #1d65a6;
-}
-
-.nav a{
-    color: #f2a104;
-}
-
-.content {
-    grid-area: c;
-    background-color: #72a2c0;
-}
-
-.footer {
-    grid-area: f;
-    background-color: #f2a104 ;
-}
-
-

@@ -1,0 +1,9 @@
+.content {
+    grid-area: c;
+    background-color: #72a2c0;
+
+}
+
+.profDescription {
+    padding: 10px;
+}

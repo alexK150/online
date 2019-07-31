@@ -5,6 +5,7 @@
     padding: 10px;
 }
 
-.div .postElement {
+.postElement {
     border-bottom: black;
+    padding: 10px;
 }

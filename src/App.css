@@ -6,3 +6,7 @@
     grid-template-rows: 60px 1fr;
     grid-auto-columns: 3fr 10fr;
 }
+
+.app-wrapper-content {
+    background-color: #72a2c0;
+}

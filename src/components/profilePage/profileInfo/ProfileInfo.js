@@ -6,10 +6,10 @@ const ProfileInfo = () => {
         <div>
             <div className={s.profDescription}>
                 <div>
-                    img
+                    <img className={s.avatar} src="https://avatarko.ru/img/kartinka/32/Star_Wars_pistolet_31680.jpg" align="top" hspace="10"/>Princess Leia
                 </div>
                 <div>
-                    ava+description
+                    description
                 </div>
             </div>
         </div>

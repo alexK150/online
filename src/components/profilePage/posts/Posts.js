@@ -8,14 +8,21 @@ const Posts = (props)=>{
         return <Post message={p.text} likes={p.likesCount}/>
     });
 
+    let postElementRef = React.createRef();
+        debugger;
+    const addPost = ()=> {
+        let text = postElementRef.current.value;
+        props.addPost(text);
+    }
+
     return(
         <div>
             <div className={s.postInfo}>
                 <h4 align="left">New Message</h4>
                 <div className={s.text}>
-                    <textarea name="" id="" cols="30" rows="5"></textarea>
+                    <textarea name="" id="" cols="30" rows="5" ref={postElementRef}></textarea>
                     <br/>
-                    <button>Send Message</button>
+                    <button onClick={addPost}>Send Message</button>
                 </div>
                 <div>
                     <div>

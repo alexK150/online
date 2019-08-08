@@ -3,8 +3,19 @@
     background-color: #192e5b;
 }
 
-.header img {
-    width: 50px;
+.HeaderLogo {
+    animation: App-logo-spin infinite 20s linear;
+    pointer-events: none;
     height: 50px;
     padding: 5px;
 }
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+

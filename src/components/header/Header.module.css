@@ -4,13 +4,13 @@
 }
 
 .HeaderLogo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: React-logo-spin infinite 20s linear;
     pointer-events: none;
     height: 50px;
     padding: 5px;
 }
 
-@keyframes App-logo-spin {
+@keyframes React-logo-spin {
     from {
         transform: rotate(0deg);
     }

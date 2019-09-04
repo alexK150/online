@@ -1,10 +1,13 @@
+import {rerenderEntireTree} from "../render";
+
 const state = {
     profilePage: {
         postData: [
             {text: 'How are you?', id: 0, likesCount: 10},
             {text: 'It\'s my first post', id: 1, likesCount: 5},
             {text: 'Hello World!', id:2, likesCount: 3},
-            {text: 'Speak', id:3, likesCount: 2}]
+            {text: 'Speak', id:3, likesCount: 2}],
+        newPostText: ''
     },
     messagePage: {
         dialogData: [
@@ -20,14 +23,21 @@ const state = {
     }
 };
 
-export let addPost = (postText) =>{
+export let addPost = () =>{
     let newPost = {
         id: 5,
-        text: postText,
+        text: state.profilePage.newPostText,
         likesCount: 0
     }
 
-    state.profilePage.postData.push(newPost)
+    state.profilePage.postData.push(newPost);
+    state.profilePage.newPostText ='';
+    rerenderEntireTree(state);
+}
+
+export let updateNewPostText = (newText) =>{
+    state.profilePage.newPostText = newText;
+    rerenderEntireTree(state);
 }
 
 export default state;

@@ -1,43 +1,51 @@
-import {rerenderEntireTree} from "../render";
-
-const state = {
-    profilePage: {
-        postData: [
-            {text: 'How are you?', id: 0, likesCount: 10},
-            {text: 'It\'s my first post', id: 1, likesCount: 5},
-            {text: 'Hello World!', id:2, likesCount: 3},
-            {text: 'Speak', id:3, likesCount: 2}],
-        newPostText: ''
+let store = {
+    _state :{
+        profilePage: {
+            postData: [
+                {id: 0, text: 'How are you?',  likesCount: 10},
+                {id: 1, text: 'It\'s my first post',  likesCount: 5},
+                {id:2, text: 'Hello World!',  likesCount: 3},
+                {id:3, text: 'Speak',  likesCount: 2}],
+            newPostText: ''
+        },
+        messagePage: {
+            dialogData: [
+                {id: 1, name: 'Alex' },
+                {id: 2, name: 'Katya' },
+                {id: 3, name: 'Pasha' },
+                {id: 4, name: 'Sveta' },
+                {id: 5, name: 'Tanya'}],
+            messageData: [
+                {id: 0, text: 'Hello!', },
+                {id: 1, text: 'How are you?', },
+                {id: 2, text: 'Hello World!', }]
+        }
     },
-    messagePage: {
-        dialogData: [
-            {name: 'Alex', id: 1},
-            {name: 'Katya', id: 2},
-            {name: 'Pasha', id: 3},
-            {name: 'Sveta', id: 4},
-            {name: 'Tanya', id: 5}],
-        messageData: [
-            {text: 'Hello!', id: 0},
-            {text: 'How are you?', id: 1},
-            {text: 'Hello World!', id: [2]}]
-    }
-};
+    getState(){
+        return this._state;
+    },
+    _callSubscriber  () {
+        console.log('State changed')
+    },
+    addPost  () {
+        let newPost = {
+            id: 5,
+            text: this._state.profilePage.newPostText,
+            likesCount: 0
+        }
 
-export let addPost = () =>{
-    let newPost = {
-        id: 5,
-        text: state.profilePage.newPostText,
-        likesCount: 0
+        this._state.profilePage.postData.push(newPost);
+        this._state.profilePage.newPostText ='';
+        this._callSubscriber(this._state);
+    },
+    updateNewPostText  (newText) {
+        store._state.profilePage.newPostText = newText;
+        this._callSubscriber(this._state);
+    },
+    subscribe  (observer) {
+        this._callSubscriber = observer;
     }
-
-    state.profilePage.postData.push(newPost);
-    state.profilePage.newPostText ='';
-    rerenderEntireTree(state);
 }
 
-export let updateNewPostText = (newText) =>{
-    state.profilePage.newPostText = newText;
-    rerenderEntireTree(state);
-}
-
-export default state;
+export default store;
+window.store = store;

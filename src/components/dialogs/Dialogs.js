@@ -14,11 +14,11 @@ const Dialogs = (props)=> {
     }
 
     const dialogElement = props.dialogs.map((dialog) => {
-        return <DialogItem name={dialog.name} id={dialog.id}/>
+        return <DialogItem name={dialog.name} id={dialog.id} key={dialog.id}/>
     });
 
     const messageElement = props.messages.map((message) => {
-        return <Message messageText={message.text}/>
+        return <Message messageText={message.text} key={message.id}/>
     });
 
     return (

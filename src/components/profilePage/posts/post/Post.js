@@ -7,7 +7,7 @@ const Post = (props) => {
             <img className={s.avatar} src="https://avatarko.ru/img/kartinka/32/Star_Wars_pistolet_31680.jpg" alt=""/>
             {props.message}
             <div>
-                <span>{props.likes} likes</span>
+                <span>likes</span> {props.likesCount}
             </div>
         </div>
     )

@@ -5,11 +5,9 @@ import Navbar from "./components/navBar/Navbar";
 import ProfilePage from "./components/profilePage/ProfilePage";
 import Dialogs from "./components/dialogs/Dialogs";
 import {Route} from "react-router-dom";
-import {addPost} from "./redux/state";
 
 
 const App = (props) => {
-    debugger
     return (
             <div className="App">
                 <Header/>
@@ -17,15 +15,14 @@ const App = (props) => {
                 <div className='app-wrapper-content'>
                     <Route path='/dialogs' render={() =>
                         <Dialogs
-                            dialogs={props.dialogs}
-                            messages={props.messages}
+                            dialogs={props.state.messagePage.dialogData}
+                            messages={props.state.messagePage.messageData}
                         />}
                     />
                     <Route path='/profile' render={() =>
                         <ProfilePage
-                            posts={props.posts}
-                            newPostText={props.newPostText}
-                            addPost={addPost}
+                            profilePage={props.state.profilePage}
+                            addPost={props.addPost}
                             updateNewPostText={props.updateNewPostText}
                         />}
                     />

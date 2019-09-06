@@ -2,24 +2,31 @@ import React from 'react';
 import s from './Dialogs.module.css'
 import DialogItem from "./dialogItem/DialogItem";
 import Message from './message/Message'
+import {sendMessageCreator, updateNewMessageBodyCreator} from "../../redux/state";
 
 
 const Dialogs = (props)=> {
 
-    let messageElementRef = React.createRef();
+    let state = props.store.getState().messagePage;
 
-    const sendMessage = ()=> {
-        let text = messageElementRef.current.value;
-        alert(text);
-    }
-
-    const dialogElement = props.dialogs.map((dialog) => {
+    const dialogElement = state.dialogData.map((dialog) => {
         return <DialogItem name={dialog.name} id={dialog.id} key={dialog.id}/>
     });
 
-    const messageElement = props.messages.map((message) => {
+    const messageElement = state.messageData.map((message) => {
         return <Message messageText={message.text} key={message.id}/>
     });
+
+    const sendMessage = ()=> {
+        props.store.dispatch(sendMessageCreator())
+    }
+
+    let onNewMessageChange = (e) =>{
+        let mesBody = e.target.value;
+        props.store.dispatch(updateNewMessageBodyCreator(mesBody))
+    }
+
+    let newMessageBody = state.newMessageBody;
 
     return (
         <div className={s.dialogs}>
@@ -27,11 +34,15 @@ const Dialogs = (props)=> {
                 {dialogElement}
             </div>
             <div className={s.messages}>
-                {messageElement}
+                <div>{messageElement}</div>
                 <div className={s.text}>
-                    <textarea name="" id="" cols="30" rows="5" ref={messageElementRef}></textarea>
+                    <textarea placeholder='Enter your message...'
+                              value={newMessageBody}
+                              onChange={onNewMessageChange} name="" id="" cols="30" rows="5" ></textarea>
                     <br/>
-                    <button onClick={sendMessage}>Send Message</button>
+                    <div>
+                        <button onClick={sendMessage}>Send Message</button>
+                    </div>
                 </div>
             </div>
         </div>

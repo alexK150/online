@@ -2,17 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cff88d1-bcb0-45a9-a7af-27a610559764" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/sidebar-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/dialogs/Dialogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/Dialogs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profilePage/posts/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilePage/posts/Posts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,7 +34,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ПУТЬ САМУРАЯ/react-way-of-samurai" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -36,16 +47,17 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\FRONT-END\JS\REACT\IT-KAMASUTRA\online\src\components\dialogs\dialogItem" />
-      <recent name="D:\FRONT-END\JS\REACT\IT-KAMASUTRA\online\src\components\profilePage\profileInfo" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\FRONT-END\JS\REACT\Курсы\IT-KAMASUTRA\online\src\components\header" />
       <recent name="D:\FRONT-END\JS\REACT\IT-KAMASUTRA\online\src\components\profilePage" />
       <recent name="D:\FRONT-END\JS\REACT\IT-KAMASUTRA\online\src\components\dialogs" />
       <recent name="D:\FRONT-END\JS\REACT\IT-KAMASUTRA\online\src\components\posts" />
       <recent name="D:\FRONT-END\JS\REACT\IT-KAMASUTRA\online\src\components\navBar" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\FRONT-END\JS\REACT\Курсы\IT-KAMASUTRA\online\src\redux" />
+      <recent name="D:\FRONT-END\JS\REACT\IT-KAMASUTRA\online\src\components\dialogs\dialogItem" />
+      <recent name="D:\FRONT-END\JS\REACT\IT-KAMASUTRA\online\src\components\profilePage\profileInfo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -104,7 +116,7 @@
       <workItem from="1565714692224" duration="2770000" />
       <workItem from="1567081439930" duration="5689000" />
       <workItem from="1567585031082" duration="4199000" />
-      <workItem from="1567670696446" duration="22258000" />
+      <workItem from="1567670696446" duration="25562000" />
     </task>
     <task id="LOCAL-00001" summary="init v1">
       <created>1563442382059</created>
@@ -183,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567751978593</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="init v12 +sendMessage">
+      <created>1567760257197</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1567760257197</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +233,7 @@
     <MESSAGE value="init v9 Full refactor of state and UI connection (FLUX), +store, observer, subscribers" />
     <MESSAGE value="init v10 +dispatch, action" />
     <MESSAGE value="init v11 +actionCreator" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v11 +actionCreator" />
+    <MESSAGE value="init v12 +sendMessage" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v12 +sendMessage" />
   </component>
 </project>

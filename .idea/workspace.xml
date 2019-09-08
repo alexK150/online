@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cff88d1-bcb0-45a9-a7af-27a610559764" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dialogs/DialogsContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/profilePage/posts/PostsContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dialogs/Dialogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/Dialogs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profilePage/ProfilePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilePage/ProfilePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profilePage/posts/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilePage/posts/Posts.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +32,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/dialogs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -45,17 +45,19 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\FRONT-END\JS\REACT\Курсы\IT-KAMASUTRA\online\src\components\dialogs" />
+      <recent name="D:\FRONT-END\JS\REACT\Курсы\IT-KAMASUTRA\online\src\components\profilePage\posts" />
+      <recent name="D:\FRONT-END\JS\REACT\Курсы\IT-KAMASUTRA\online\src\redux" />
+      <recent name="D:\FRONT-END\JS\REACT\IT-KAMASUTRA\online\src\components\dialogs\dialogItem" />
+      <recent name="D:\FRONT-END\JS\REACT\IT-KAMASUTRA\online\src\components\profilePage\profileInfo" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\FRONT-END\JS\REACT\Курсы\IT-KAMASUTRA\online\src\components\header" />
       <recent name="D:\FRONT-END\JS\REACT\IT-KAMASUTRA\online\src\components\profilePage" />
       <recent name="D:\FRONT-END\JS\REACT\IT-KAMASUTRA\online\src\components\dialogs" />
       <recent name="D:\FRONT-END\JS\REACT\IT-KAMASUTRA\online\src\components\posts" />
       <recent name="D:\FRONT-END\JS\REACT\IT-KAMASUTRA\online\src\components\navBar" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\FRONT-END\JS\REACT\Курсы\IT-KAMASUTRA\online\src\redux" />
-      <recent name="D:\FRONT-END\JS\REACT\IT-KAMASUTRA\online\src\components\dialogs\dialogItem" />
-      <recent name="D:\FRONT-END\JS\REACT\IT-KAMASUTRA\online\src\components\profilePage\profileInfo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -114,7 +116,8 @@
       <workItem from="1565714692224" duration="2770000" />
       <workItem from="1567081439930" duration="5689000" />
       <workItem from="1567585031082" duration="4199000" />
-      <workItem from="1567670696446" duration="28044000" />
+      <workItem from="1567670696446" duration="30223000" />
+      <workItem from="1567947704510" duration="6876000" />
     </task>
     <task id="LOCAL-00001" summary="init v1">
       <created>1563442382059</created>
@@ -207,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567779200515</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="init v14 +REDUX">
+      <created>1567781825029</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1567781825029</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +250,7 @@
     <MESSAGE value="init v11 +actionCreator" />
     <MESSAGE value="init v12 +sendMessage" />
     <MESSAGE value="init v13 +dialogs-reducer, profile-reducer, sidebar-reducer" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v13 +dialogs-reducer, profile-reducer, sidebar-reducer" />
+    <MESSAGE value="init v14 +REDUX" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v14 +REDUX" />
   </component>
 </project>

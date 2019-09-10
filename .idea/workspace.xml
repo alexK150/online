@@ -3,16 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2cff88d1-bcb0-45a9-a7af-27a610559764" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StoreContext.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dialogs/Dialogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/Dialogs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dialogs/DialogsContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/DialogsContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profilePage/ProfilePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilePage/ProfilePage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/profilePage/posts/PostsContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilePage/posts/PostsContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +114,7 @@
       <workItem from="1567081439930" duration="5689000" />
       <workItem from="1567585031082" duration="4199000" />
       <workItem from="1567670696446" duration="30223000" />
-      <workItem from="1567947704510" duration="17611000" />
+      <workItem from="1567947704510" duration="21004000" />
     </task>
     <task id="LOCAL-00001" summary="init v1">
       <created>1563442382059</created>
@@ -235,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568017391210</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="init v17 +react-redux, ProfileReducer">
+      <created>1568099551469</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1568099551469</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +271,7 @@
     <MESSAGE value="init v14 +REDUX" />
     <MESSAGE value="init v15 +Container Components(PostsContainer, DialogsContainer)" />
     <MESSAGE value="init v16 +Context API(StoreContext.js)" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v16 +Context API(StoreContext.js)" />
+    <MESSAGE value="init v17 +react-redux, ProfileReducer" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v17 +react-redux, ProfileReducer" />
   </component>
 </project>

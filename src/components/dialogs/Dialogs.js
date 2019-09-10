@@ -2,13 +2,13 @@ import React from 'react';
 import s from './Dialogs.module.css'
 import DialogItem from "./dialogItem/DialogItem";
 import Message from './message/Message'
-import {sendMessageCreator, updateNewMessageBodyCreator} from "../../redux/dialogs-reducer";
+
 
 
 const Dialogs = (props)=> {
 
     let state = props.dialogsPage;
-// debugger
+
     const dialogElement = state.dialogData.map((dialog) => {
         return <DialogItem name={dialog.name} id={dialog.id} key={dialog.id}/>
     });

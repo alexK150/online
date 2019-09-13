@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2cff88d1-bcb0-45a9-a7af-27a610559764" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navBar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navBar/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/Users.js" afterDir="false" />
-    </list>
+    <list default="true" id="2cff88d1-bcb0-45a9-a7af-27a610559764" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +116,7 @@
       <workItem from="1568302803505" duration="582000" />
       <workItem from="1568308247847" duration="29000" />
       <workItem from="1568310240353" duration="666000" />
-      <workItem from="1568356524131" duration="2471000" />
+      <workItem from="1568356524131" duration="3202000" />
     </task>
     <task id="LOCAL-00001" summary="init v1">
       <created>1563442382059</created>
@@ -262,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568233437156</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="init v21  +User classComp, usersLink">
+      <created>1568359947699</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1568359947699</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,6 +306,7 @@
     <MESSAGE value="init v19  +Users, UsersContainer, users-reducer" />
     <MESSAGE value="init v20  +Rest API" />
     <MESSAGE value="init v20  +Rest API, axios" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v20  +Rest API, axios" />
+    <MESSAGE value="init v21  +User classComp, usersLink" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v21  +User classComp, usersLink" />
   </component>
 </project>

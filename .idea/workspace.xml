@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2cff88d1-bcb0-45a9-a7af-27a610559764" name="Default Changelist" comment="" />
+    <list default="true" id="2cff88d1-bcb0-45a9-a7af-27a610559764" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/Users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/UsersContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/UsersContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/users.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/users.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +122,9 @@
       <workItem from="1568302803505" duration="582000" />
       <workItem from="1568308247847" duration="29000" />
       <workItem from="1568310240353" duration="666000" />
-      <workItem from="1568356524131" duration="3202000" />
+      <workItem from="1568356524131" duration="4045000" />
+      <workItem from="1568447768326" duration="7894000" />
+      <workItem from="1568488943804" duration="532000" />
     </task>
     <task id="LOCAL-00001" summary="init v1">
       <created>1563442382059</created>
@@ -265,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568359947699</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="init v22  refactor(Users + componentDidMount)">
+      <created>1568361524440</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1568361524440</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +322,7 @@
     <MESSAGE value="init v20  +Rest API" />
     <MESSAGE value="init v20  +Rest API, axios" />
     <MESSAGE value="init v21  +User classComp, usersLink" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v21  +User classComp, usersLink" />
+    <MESSAGE value="init v22  refactor(Users + componentDidMount)" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v22  refactor(Users + componentDidMount)" />
   </component>
 </project>

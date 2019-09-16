@@ -14,9 +14,5 @@ import {Provider} from "react-redux";
             </Provider>
         </BrowserRouter>, document.getElementById('root'));
 
-// store.subscribe(() => {
-//     let state = store.getState();
-//     rerenderEntireTree(state);
-// });
 
 serviceWorker.unregister();

@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cff88d1-bcb0-45a9-a7af-27a610559764" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common/Preloader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/profilePage/ProfilePageContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profilePage/ProfilePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilePage/ProfilePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profilePage/profileInfo/ProfileInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilePage/profileInfo/ProfileInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/Users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/users/UsersContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/UsersContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +34,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/dialogs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/profilePage" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,19 +47,19 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\FRONT-END\JS\REACT\Курсы\IT-KAMASUTRA\online\src\components\dialogs" />
-      <recent name="D:\FRONT-END\JS\REACT\Курсы\IT-KAMASUTRA\online\src\components\profilePage\posts" />
-      <recent name="D:\FRONT-END\JS\REACT\Курсы\IT-KAMASUTRA\online\src\redux" />
-      <recent name="D:\FRONT-END\JS\REACT\IT-KAMASUTRA\online\src\components\dialogs\dialogItem" />
-      <recent name="D:\FRONT-END\JS\REACT\IT-KAMASUTRA\online\src\components\profilePage\profileInfo" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\FRONT-END\JS\REACT\Курсы\IT-KAMASUTRA\online\src\components\header" />
       <recent name="D:\FRONT-END\JS\REACT\IT-KAMASUTRA\online\src\components\profilePage" />
       <recent name="D:\FRONT-END\JS\REACT\IT-KAMASUTRA\online\src\components\dialogs" />
       <recent name="D:\FRONT-END\JS\REACT\IT-KAMASUTRA\online\src\components\posts" />
       <recent name="D:\FRONT-END\JS\REACT\IT-KAMASUTRA\online\src\components\navBar" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\FRONT-END\JS\REACT\Курсы\IT-KAMASUTRA\online\src\components\profilePage" />
+      <recent name="D:\FRONT-END\JS\REACT\Курсы\IT-KAMASUTRA\online\src\components\dialogs" />
+      <recent name="D:\FRONT-END\JS\REACT\Курсы\IT-KAMASUTRA\online\src\components\profilePage\posts" />
+      <recent name="D:\FRONT-END\JS\REACT\Курсы\IT-KAMASUTRA\online\src\redux" />
+      <recent name="D:\FRONT-END\JS\REACT\IT-KAMASUTRA\online\src\components\dialogs\dialogItem" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -123,7 +128,8 @@
       <workItem from="1568310240353" duration="666000" />
       <workItem from="1568356524131" duration="4045000" />
       <workItem from="1568447768326" duration="7894000" />
-      <workItem from="1568488943804" duration="13608000" />
+      <workItem from="1568488943804" duration="13649000" />
+      <workItem from="1568882431875" duration="4915000" />
     </task>
     <task id="LOCAL-00001" summary="init v1">
       <created>1563442382059</created>
@@ -293,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568631248858</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="init v25  +Preloader">
+      <created>1568716769453</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1568716769453</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,7 +326,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init v1" />
     <MESSAGE value="init v2 added css-modules, Components: Dialogs, Dialogs, Post, Posts, ProfilePage" />
     <MESSAGE value="init v3 +react-router-dom, + Messages instead of Dialogs, Navlinks" />
     <MESSAGE value="init v4 mapped post and message elements" />
@@ -338,6 +350,7 @@
     <MESSAGE value="init v22  refactor(Users + componentDidMount)" />
     <MESSAGE value="init v23  refactor(Users + componentDidMount)" />
     <MESSAGE value="init v24  refactor(pagination, data-receiving)" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v24  refactor(pagination, data-receiving)" />
+    <MESSAGE value="init v25  +Preloader" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v25  +Preloader" />
   </component>
 </project>

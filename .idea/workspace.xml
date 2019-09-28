@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cff88d1-bcb0-45a9-a7af-27a610559764" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/Users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/users/UsersContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/UsersContainer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -126,7 +126,9 @@
       <workItem from="1568882431875" duration="5614000" />
       <workItem from="1569253705711" duration="1333000" />
       <workItem from="1569331510272" duration="12244000" />
-      <workItem from="1569612933681" duration="2166000" />
+      <workItem from="1569612933681" duration="2808000" />
+      <workItem from="1569677115878" duration="118000" />
+      <workItem from="1569692827678" duration="2701000" />
     </task>
     <task id="LOCAL-00001" summary="init v1">
       <created>1563442382059</created>
@@ -324,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569410705455</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="init v29  follow/unfollow connected to API">
+      <created>1569615141648</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1569615141648</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,7 +353,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init v5 refactor messages and dialogs" />
     <MESSAGE value="init v6 All data moved to index.js" />
     <MESSAGE value="init v7 +state and redux-folder" />
     <MESSAGE value="init v8 FLUX" />
@@ -369,6 +377,7 @@
     <MESSAGE value="init v26  +ProfilePageContainer (profile from API)" />
     <MESSAGE value="init v27  +withRouter on ProfilePageContainer" />
     <MESSAGE value="init v28  +login (cookie)" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v28  +login (cookie)" />
+    <MESSAGE value="init v29  follow/unfollow connected to API" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v29  follow/unfollow connected to API" />
   </component>
 </project>

@@ -2,12 +2,13 @@ import React from 'react';
 import s from './Dialogs.module.css'
 import DialogItem from "./dialogItem/DialogItem";
 import Message from './message/Message'
+import {Redirect} from "react-router-dom";
 
 
-
-const Dialogs = (props)=> {
+const Dialogs = (props) => {
 
     let state = props.dialogsPage;
+    let newMessageBody = state.newMessageBody;
 
     const dialogElement = state.dialogData.map((dialog) => {
         return <DialogItem name={dialog.name} id={dialog.id} key={dialog.id}/>
@@ -17,16 +18,18 @@ const Dialogs = (props)=> {
         return <Message messageText={message.text} key={message.id}/>
     });
 
-    const sendMessage = ()=> {
+    const sendMessage = () => {
         props.sendMessage();
     }
 
-    let onNewMessageChange = (e) =>{
+    let onNewMessageChange = (e) => {
         let mesBody = e.target.value;
         props.updateNewMessageBody(mesBody)
     }
 
-    let newMessageBody = state.newMessageBody;
+    if (!props.isAuth) {
+        return <Redirect to={'/login'}/>
+    }
 
     return (
         <div className={s.dialogs}>
@@ -38,7 +41,7 @@ const Dialogs = (props)=> {
                 <div className={s.text}>
                     <textarea placeholder='Enter your message...'
                               value={newMessageBody}
-                              onChange={onNewMessageChange} name="" id="" cols="30" rows="5" ></textarea>
+                              onChange={onNewMessageChange} name="" id="" cols="30" rows="5"></textarea>
                     <br/>
                     <div>
                         <button onClick={sendMessage}>Send Message</button>

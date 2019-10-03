@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="2cff88d1-bcb0-45a9-a7af-27a610559764" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/HeaderContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/HeaderContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/Users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/users/UsersContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/UsersContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -132,7 +134,11 @@
       <workItem from="1569612933681" duration="2808000" />
       <workItem from="1569677115878" duration="118000" />
       <workItem from="1569692827678" duration="3133000" />
-      <workItem from="1569756579279" duration="4052000" />
+      <workItem from="1569756579279" duration="4937000" />
+      <workItem from="1569771836191" duration="1193000" />
+      <workItem from="1569826845170" duration="4402000" />
+      <workItem from="1569841870886" duration="3557000" />
+      <workItem from="1570090969568" duration="2951000" />
     </task>
     <task id="LOCAL-00001" summary="init v1">
       <created>1563442382059</created>
@@ -344,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569696443976</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="init v31  button disabled (follow/unfollow)">
+      <created>1569762320628</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1569762320628</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,7 +377,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init v7 +state and redux-folder" />
     <MESSAGE value="init v8 FLUX" />
     <MESSAGE value="init v9 Full refactor of state and UI connection (FLUX), +store, observer, subscribers" />
     <MESSAGE value="init v10 +dispatch, action" />
@@ -389,6 +401,7 @@
     <MESSAGE value="init v28  +login (cookie)" />
     <MESSAGE value="init v29  follow/unfollow connected to API" />
     <MESSAGE value="init v30  DAL API axios +api.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v30  DAL API axios +api.js" />
+    <MESSAGE value="init v31  button disabled (follow/unfollow)" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v31  button disabled (follow/unfollow)" />
   </component>
 </project>

@@ -14,6 +14,12 @@ export const usersAPI = {
     getUsers(currentPage = 1, pageSize = 10) {
         return axInstance.get(`users?page=${currentPage}&count=${pageSize}`)
             .then(res => res.data);
+    },
+    follow(userId){
+        return axInstance.post(`follow/${userId}`)
+    },
+    unfollow(userId){
+        return axInstance.delete(`follow/${userId}`)
     }
 }
 

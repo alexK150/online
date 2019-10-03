@@ -20,9 +20,15 @@ export const usersAPI = {
     },
     unfollow(userId){
         return axInstance.delete(`follow/${userId}`)
+    },
+    getProfile(userId){
+        return axInstance.get(`profile/${userId}`);
     }
 }
 
-//profile API
+export const authAPI ={
+    authMe(){
+        return axInstance.get(`auth/me`)
+    }
+}
 
-//follow/unfollow API

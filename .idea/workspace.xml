@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cff88d1-bcb0-45a9-a7af-27a610559764" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/login/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/withAuthRedirect.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/dialogs/Dialogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/Dialogs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/dialogs/DialogsContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/DialogsContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/profilePage/ProfilePageContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilePage/ProfilePageContainer.js" afterDir="false" />
@@ -136,7 +135,12 @@
       <workItem from="1569771836191" duration="1193000" />
       <workItem from="1569826845170" duration="4402000" />
       <workItem from="1569841870886" duration="3557000" />
-      <workItem from="1570090969568" duration="7947000" />
+      <workItem from="1570090969568" duration="8615000" />
+      <workItem from="1570110420574" duration="1202000" />
+      <workItem from="1570125953762" duration="3527000" />
+      <workItem from="1570134231773" duration="87000" />
+      <workItem from="1570187601259" duration="4488000" />
+      <workItem from="1570219839796" duration="1006000" />
     </task>
     <task id="LOCAL-00001" summary="init v1">
       <created>1563442382059</created>
@@ -369,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570097536442</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="init v34  Redirect to Login.js from Dialogs &amp; Posts">
+      <created>1570099448977</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1570099448977</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,7 +400,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init v10 +dispatch, action" />
     <MESSAGE value="init v11 +actionCreator" />
     <MESSAGE value="init v12 +sendMessage" />
     <MESSAGE value="init v13 +dialogs-reducer, profile-reducer, sidebar-reducer" />
@@ -414,6 +424,7 @@
     <MESSAGE value="init v31  button disabled (follow/unfollow)" />
     <MESSAGE value="init v32  +redux-thunk for Users.js" />
     <MESSAGE value="init v33  +redux-thunk for ProfilePage.js and Header.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v33  +redux-thunk for ProfilePage.js and Header.js" />
+    <MESSAGE value="init v34  Redirect to Login.js from Dialogs &amp; Posts" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v34  Redirect to Login.js from Dialogs &amp; Posts" />
   </component>
 </project>

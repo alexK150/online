@@ -7,6 +7,8 @@ import {Redirect} from "react-router-dom";
 
 const Dialogs = (props) => {
 
+    debugger
+
     let state = props.dialogsPage;
     let newMessageBody = state.newMessageBody;
 

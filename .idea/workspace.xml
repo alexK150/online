@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cff88d1-bcb0-45a9-a7af-27a610559764" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/profilePage/profileInfo/ProfileStatus.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dialogs/DialogsContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/DialogsContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/profilePage/ProfilePageContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilePage/ProfilePageContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/users/UsersContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/UsersContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profilePage/profileInfo/ProfileInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilePage/profileInfo/ProfileInfo.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +139,7 @@
       <workItem from="1570125953762" duration="3527000" />
       <workItem from="1570134231773" duration="87000" />
       <workItem from="1570187601259" duration="4488000" />
-      <workItem from="1570219839796" duration="2636000" />
+      <workItem from="1570219839796" duration="5686000" />
     </task>
     <task id="LOCAL-00001" summary="init v1">
       <created>1563442382059</created>
@@ -386,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570221051411</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="init v36  +compose with Redirect HOC in User, ProfilePage &amp; Dialogs Container Components">
+      <created>1570222888023</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1570222888023</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,7 +413,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init v12 +sendMessage" />
     <MESSAGE value="init v13 +dialogs-reducer, profile-reducer, sidebar-reducer" />
     <MESSAGE value="init v14 +REDUX" />
     <MESSAGE value="init v15 +Container Components(PostsContainer, DialogsContainer)" />
@@ -431,6 +437,7 @@
     <MESSAGE value="init v33  +redux-thunk for ProfilePage.js and Header.js" />
     <MESSAGE value="init v34  Redirect to Login.js from Dialogs &amp; Posts" />
     <MESSAGE value="init v35  +hoc folder with Redirect HOC" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v35  +hoc folder with Redirect HOC" />
+    <MESSAGE value="init v36  +compose with Redirect HOC in User, ProfilePage &amp; Dialogs Container Components" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v36  +compose with Redirect HOC in User, ProfilePage &amp; Dialogs Container Components" />
   </component>
 </project>

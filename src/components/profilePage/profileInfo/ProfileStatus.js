@@ -8,24 +8,33 @@ class ProfileStatus extends React.Component {
         status: this.props.status
     }
 
-    activateEditMode =()=>{
+    activateEditMode = () => {
 
         this.setState({
             editMode: true
         })
     }
 
-    deActivateEditMode =()=>{
+    deActivateEditMode = () => {
         this.setState({
             editMode: false
         })
         this.props.updateStatus(this.state.status);
     }
 
-    onStatusChange = (e)=>{
+    onStatusChange = (e) => {
         this.setState({
             status: e.currentTarget.value
-    });
+        });
+    }
+
+    componentDidUpdate(prevProps, prevState, snapshot) {
+
+        if (prevProps.status !== this.props.status) {
+            this.setState({
+                status: this.props.status
+            })
+        }
     }
 
     render() {
@@ -33,17 +42,17 @@ class ProfileStatus extends React.Component {
             <>
                 <div>
                     {!this.state.editMode &&
-                        <div>
-                            <span onDoubleClick={this.activateEditMode}>{this.props.status || 'Status is empty'}</span>
-                        </div>
+                    <div>
+                        <span onDoubleClick={this.activateEditMode}>{this.props.status || 'Status is empty'}</span>
+                    </div>
                     }
                     {this.state.editMode &&
-                        <div>
-                            <input onChange={this.onStatusChange}
-                                autoFocus={true}
-                                   onBlur={this.deActivateEditMode}
-                                   value={this.state.status}/>
-                        </div>
+                    <div>
+                        <input onChange={this.onStatusChange}
+                               autoFocus={true}
+                               onBlur={this.deActivateEditMode}
+                               value={this.state.status}/>
+                    </div>
                     }
                 </div>
 

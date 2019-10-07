@@ -4,11 +4,11 @@ import Preloader from "../../../common/Preloader";
 import ProfileStatus from './ProfileStatus'
 
 const ProfileInfo = (props) => {
-    if (!props.profile){
+    if (!props.profile) {
         return <Preloader/>
     }
 
-    return(
+    return (
         <div>
             <div className={s.profDescription}>
                 <div>

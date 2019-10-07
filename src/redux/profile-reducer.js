@@ -83,7 +83,7 @@ export const setStatus = (statusText) => {
 }
 //Thunk for getting status
 export const getStatus = (userId) => (dispatch) => {
-    debugger
+debugger
     profileAPI.getStatus(userId)
         .then(response => {
             dispatch(setStatus(response.data));

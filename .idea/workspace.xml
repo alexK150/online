@@ -4,8 +4,6 @@
     <list default="true" id="2cff88d1-bcb0-45a9-a7af-27a610559764" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profilePage/ProfilePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilePage/ProfilePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profilePage/ProfilePageContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilePage/ProfilePageContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/profilePage/profileInfo/ProfileInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilePage/profileInfo/ProfileInfo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/profilePage/profileInfo/ProfileStatus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilePage/profileInfo/ProfileStatus.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
@@ -144,7 +142,7 @@
       <workItem from="1570187601259" duration="4488000" />
       <workItem from="1570219839796" duration="8428000" />
       <workItem from="1570274665293" duration="69000" />
-      <workItem from="1570434379623" duration="6504000" />
+      <workItem from="1570434379623" duration="8464000" />
     </task>
     <task id="LOCAL-00001" summary="init v1">
       <created>1563442382059</created>
@@ -412,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570270193621</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="init v39  + set and update status (in local state ProfileStatus.js)">
+      <created>1570443546271</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1570443546271</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,7 +437,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init v15 +Container Components(PostsContainer, DialogsContainer)" />
     <MESSAGE value="init v16 +Context API(StoreContext.js)" />
     <MESSAGE value="init v17 +react-redux, ProfileReducer" />
     <MESSAGE value="init v18  refactor(ProfileReducer, DialogReducer)" />
@@ -457,6 +461,7 @@
     <MESSAGE value="init v36  +compose with Redirect HOC in User, ProfilePage &amp; Dialogs Container Components" />
     <MESSAGE value="init v37  +editMode for Status in ProfileInfo Component" />
     <MESSAGE value="init v38  react-scripts version update from 3.0.1 to 3.2.0. Refactor methods to arrow functions without binding" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v38  react-scripts version update from 3.0.1 to 3.2.0. Refactor methods to arrow functions without binding" />
+    <MESSAGE value="init v39  + set and update status (in local state ProfileStatus.js)" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v39  + set and update status (in local state ProfileStatus.js)" />
   </component>
 </project>

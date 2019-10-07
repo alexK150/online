@@ -15,13 +15,13 @@ export const usersAPI = {
         return axInstance.get(`users?page=${currentPage}&count=${pageSize}`)
             .then(res => res.data);
     },
-    follow(userId){
+    follow(userId) {
         return axInstance.post(`follow/${userId}`)
     },
-    unfollow(userId){
+    unfollow(userId) {
         return axInstance.delete(`follow/${userId}`)
     },
-    getProfile(userId){
+    getProfile(userId) {
         //backward compatibility
         console.warn('Obsolete method. Please use profileApi object');
         return profileAPI.getProfile(userId);
@@ -29,19 +29,19 @@ export const usersAPI = {
 }
 
 export const profileAPI = {
-    getProfile(userId){
+    getProfile(userId) {
         return axInstance.get(`profile/${userId}`);
     },
-    getStatus(userId){
+    getStatus(userId) {
         return axInstance.get(`profile/status/${userId}`);
     },
-    updateStatus(statusText){
+    updateStatus(statusText) {
         return axInstance.put(`profile/status/`, {status: statusText});
     }
 }
 
-export const authAPI ={
-    authMe(){
+export const authAPI = {
+    authMe() {
         return axInstance.get(`auth/me`)
     }
 }

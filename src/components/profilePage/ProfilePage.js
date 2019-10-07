@@ -4,9 +4,11 @@ import ProfileInfo from "./profileInfo/ProfileInfo";
 import PostsContainer from "./posts/PostsContainer";
 
 const ProfilePage = (props) => {
-    return(
+    return (
         <div className={s.content}>
-            <ProfileInfo profile={props.profile}/>
+            <ProfileInfo profile={props.profile}
+                         status={props.status}
+                         updateStatus={props.updateStatus}/>
             <PostsContainer
                 store={props.store}
             />

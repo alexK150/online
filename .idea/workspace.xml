@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="2cff88d1-bcb0-45a9-a7af-27a610559764" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profilePage/ProfilePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilePage/ProfilePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profilePage/ProfilePageContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilePage/ProfilePageContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profilePage/profileInfo/ProfileInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilePage/profileInfo/ProfileInfo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/profilePage/profileInfo/ProfileStatus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilePage/profileInfo/ProfileStatus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +142,9 @@
       <workItem from="1570125953762" duration="3527000" />
       <workItem from="1570134231773" duration="87000" />
       <workItem from="1570187601259" duration="4488000" />
-      <workItem from="1570219839796" duration="7836000" />
+      <workItem from="1570219839796" duration="8428000" />
+      <workItem from="1570274665293" duration="69000" />
+      <workItem from="1570434379623" duration="6504000" />
     </task>
     <task id="LOCAL-00001" summary="init v1">
       <created>1563442382059</created>
@@ -400,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570267368589</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="init v38  react-scripts version update from 3.0.1 to 3.2.0. Refactor methods to arrow functions without binding">
+      <created>1570270193621</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1570270193621</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,7 +432,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init v14 +REDUX" />
     <MESSAGE value="init v15 +Container Components(PostsContainer, DialogsContainer)" />
     <MESSAGE value="init v16 +Context API(StoreContext.js)" />
     <MESSAGE value="init v17 +react-redux, ProfileReducer" />
@@ -445,6 +456,7 @@
     <MESSAGE value="init v35  +hoc folder with Redirect HOC" />
     <MESSAGE value="init v36  +compose with Redirect HOC in User, ProfilePage &amp; Dialogs Container Components" />
     <MESSAGE value="init v37  +editMode for Status in ProfileInfo Component" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v37  +editMode for Status in ProfileInfo Component" />
+    <MESSAGE value="init v38  react-scripts version update from 3.0.1 to 3.2.0. Refactor methods to arrow functions without binding" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v38  react-scripts version update from 3.0.1 to 3.2.0. Refactor methods to arrow functions without binding" />
   </component>
 </project>

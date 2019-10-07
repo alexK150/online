@@ -22,7 +22,21 @@ export const usersAPI = {
         return axInstance.delete(`follow/${userId}`)
     },
     getProfile(userId){
+        //backward compatibility
+        console.warn('Obsolete method. Please use profileApi object');
+        return profileAPI.getProfile(userId);
+    }
+}
+
+export const profileAPI = {
+    getProfile(userId){
         return axInstance.get(`profile/${userId}`);
+    },
+    getStatus(userId){
+        return axInstance.get(`profile/status/${userId}`);
+    },
+    updateStatus(statusText){
+        return axInstance.put(`profile/status/`, {status: statusText});
     }
 }
 

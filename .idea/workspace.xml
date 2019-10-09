@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cff88d1-bcb0-45a9-a7af-27a610559764" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/login/LoginForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/login/LoginPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/login/Login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dialogs/Dialogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/Dialogs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dialogs/DialogsContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/DialogsContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profilePage/posts/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilePage/posts/Posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profilePage/posts/PostsContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilePage/posts/PostsContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -145,7 +144,10 @@
       <workItem from="1570187601259" duration="4488000" />
       <workItem from="1570219839796" duration="8428000" />
       <workItem from="1570274665293" duration="69000" />
-      <workItem from="1570434379623" duration="12420000" />
+      <workItem from="1570434379623" duration="15250000" />
+      <workItem from="1570540805859" duration="3768000" />
+      <workItem from="1570621337798" duration="374000" />
+      <workItem from="1570623370574" duration="1060000" />
     </task>
     <task id="LOCAL-00001" summary="init v1">
       <created>1563442382059</created>
@@ -427,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570453612063</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="init v41  +redux-form library. LoginForm done">
+      <created>1570458325860</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1570458325860</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +456,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init v17 +react-redux, ProfileReducer" />
     <MESSAGE value="init v18  refactor(ProfileReducer, DialogReducer)" />
     <MESSAGE value="init v19  +Users, UsersContainer, users-reducer" />
     <MESSAGE value="init v20  +Rest API" />
@@ -472,6 +480,7 @@
     <MESSAGE value="init v38  react-scripts version update from 3.0.1 to 3.2.0. Refactor methods to arrow functions without binding" />
     <MESSAGE value="init v39  + set and update status (in local state ProfileStatus.js)" />
     <MESSAGE value="init v40  debug (status is controlled by componentDidUpdate)" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v40  debug (status is controlled by componentDidUpdate)" />
+    <MESSAGE value="init v41  +redux-form library. LoginForm done" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v41  +redux-form library. LoginForm done" />
   </component>
 </project>

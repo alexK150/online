@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cff88d1-bcb0-45a9-a7af-27a610559764" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/common/FormControls/FormControls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/FormControls/FormControls.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/validators/validators.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/dialogs/Dialogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/Dialogs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dialogs/DialogsContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/DialogsContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/login/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login/LoginForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/profilePage/posts/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilePage/posts/Posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profilePage/posts/PostsContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilePage/posts/PostsContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +32,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/header" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/common/FormControls" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -45,19 +45,19 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\FRONT-END\JS\REACT\Курсы\IT-KAMASUTRA\online\src\components\header" />
-      <recent name="D:\FRONT-END\JS\REACT\Курсы\IT-KAMASUTRA\online\src\redux" />
-      <recent name="D:\FRONT-END\JS\REACT\Курсы\IT-KAMASUTRA\online\src\components\profilePage" />
-      <recent name="D:\FRONT-END\JS\REACT\Курсы\IT-KAMASUTRA\online\src\components\dialogs" />
-      <recent name="D:\FRONT-END\JS\REACT\Курсы\IT-KAMASUTRA\online\src\components\profilePage\posts" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\FRONT-END\JS\REACT\Курсы\IT-KAMASUTRA\online\src\components\header" />
       <recent name="D:\FRONT-END\JS\REACT\IT-KAMASUTRA\online\src\components\profilePage" />
       <recent name="D:\FRONT-END\JS\REACT\IT-KAMASUTRA\online\src\components\dialogs" />
       <recent name="D:\FRONT-END\JS\REACT\IT-KAMASUTRA\online\src\components\posts" />
       <recent name="D:\FRONT-END\JS\REACT\IT-KAMASUTRA\online\src\components\navBar" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\FRONT-END\JS\REACT\Курсы\IT-KAMASUTRA\online\src\common\FormControls" />
+      <recent name="D:\FRONT-END\JS\REACT\Курсы\IT-KAMASUTRA\online\src\components\header" />
+      <recent name="D:\FRONT-END\JS\REACT\Курсы\IT-KAMASUTRA\online\src\redux" />
+      <recent name="D:\FRONT-END\JS\REACT\Курсы\IT-KAMASUTRA\online\src\components\profilePage" />
+      <recent name="D:\FRONT-END\JS\REACT\Курсы\IT-KAMASUTRA\online\src\components\dialogs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -147,7 +147,9 @@
       <workItem from="1570434379623" duration="15250000" />
       <workItem from="1570540805859" duration="3768000" />
       <workItem from="1570621337798" duration="374000" />
-      <workItem from="1570623370574" duration="1060000" />
+      <workItem from="1570623370574" duration="1736000" />
+      <workItem from="1570712536779" duration="6824000" />
+      <workItem from="1570728039305" duration="1797000" />
     </task>
     <task id="LOCAL-00001" summary="init v1">
       <created>1563442382059</created>
@@ -436,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570458325860</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="init v42  +redux-form implemented to Posts and Dialogs">
+      <created>1570624596511</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1570624596511</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,7 +465,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init v18  refactor(ProfileReducer, DialogReducer)" />
     <MESSAGE value="init v19  +Users, UsersContainer, users-reducer" />
     <MESSAGE value="init v20  +Rest API" />
     <MESSAGE value="init v20  +Rest API, axios" />
@@ -481,6 +489,7 @@
     <MESSAGE value="init v39  + set and update status (in local state ProfileStatus.js)" />
     <MESSAGE value="init v40  debug (status is controlled by componentDidUpdate)" />
     <MESSAGE value="init v41  +redux-form library. LoginForm done" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v41  +redux-form library. LoginForm done" />
+    <MESSAGE value="init v42  +redux-form implemented to Posts and Dialogs" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v42  +redux-form implemented to Posts and Dialogs" />
   </component>
 </project>

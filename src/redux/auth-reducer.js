@@ -10,33 +10,48 @@ let initialState = {
     isAuth: false
 };
 
-const authReducer = (state = initialState, action)=>{
+const authReducer = (state = initialState, action) => {
     switch (action.type) {
         case SET_USER_DATA:
             return {
                 ...state,
-                userId: action.userId,
-                email: action.email,
-                login: action.login,
-                isAuth: true
+                ...action.payload,
             }
         default:
             return state
     }
-
-
-
 }
-//Action creator
-export const setAuthUserData = (userId, email, login) =>({type:SET_USER_DATA, userId, email, login});
+//Action creator to set userId, email, login
+export const setAuthUserData = (userId, email, login, isAuth) => ({
+    type: SET_USER_DATA,
+    payload: {userId, email, login, isAuth}
+});
 
 //Thunk creator
-export const getAuthUserData = ()=>(dispatch)=>{
+export const getAuthUserData = () => (dispatch) => {
     authAPI.authMe()
         .then(response => {
             if (response.data.resultCode === 0) {
                 let {id, email, login} = response.data.data;
-                dispatch(setAuthUserData(id, email, login));
+                dispatch(setAuthUserData(id, email, login, true));
+            }
+        })
+}
+
+export const loginThunkCreator = (email, password, rememberMe) => (dispatch) => {
+    authAPI.login(email, password, rememberMe)
+        .then(response => {
+            if (response.data.resultCode === 0) {
+                dispatch(getAuthUserData())
+            }
+        })
+}
+
+export const logoutThunkCreator = () => (dispatch) => {
+    authAPI.logout()
+        .then(response => {
+            if (response.data.resultCode === 0) {
+                dispatch(getAuthUserData(null, null, null, false))
             }
         })
 }

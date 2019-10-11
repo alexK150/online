@@ -43,6 +43,12 @@ export const profileAPI = {
 export const authAPI = {
     authMe() {
         return axInstance.get(`auth/me`)
-    }
+    },
+    login(email, password, rememberMe = false) {
+        return axInstance.post(`auth/login`, {email, password, rememberMe})
+    },
+    logout() {
+        return axInstance.delete(`auth/login`)
+    },
 }
 

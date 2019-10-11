@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2cff88d1-bcb0-45a9-a7af-27a610559764" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/HeaderContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/HeaderContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/FormControls/FormControls.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/FormControls/FormControls.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/login/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login/LoginForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/login/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login/LoginPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profilePage/ProfilePageContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilePage/ProfilePageContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -149,7 +147,7 @@
       <workItem from="1570621337798" duration="374000" />
       <workItem from="1570623370574" duration="1736000" />
       <workItem from="1570712536779" duration="6824000" />
-      <workItem from="1570728039305" duration="9857000" />
+      <workItem from="1570728039305" duration="13536000" />
     </task>
     <task id="LOCAL-00001" summary="init v1">
       <created>1563442382059</created>
@@ -452,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570730033568</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="init v44  Login on server">
+      <created>1570777490854</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1570777490854</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +477,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init v20  +Rest API" />
     <MESSAGE value="init v20  +Rest API, axios" />
     <MESSAGE value="init v21  +User classComp, usersLink" />
     <MESSAGE value="init v22  refactor(Users + componentDidMount)" />
@@ -497,6 +501,7 @@
     <MESSAGE value="init v41  +redux-form library. LoginForm done" />
     <MESSAGE value="init v42  +redux-form implemented to Posts and Dialogs" />
     <MESSAGE value="init v43  Login validation, Posts validation, Message validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v43  Login validation, Posts validation, Message validation" />
+    <MESSAGE value="init v44  Login on server" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v44  Login on server" />
   </component>
 </project>

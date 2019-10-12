@@ -102,13 +102,14 @@ export const toggleFollowingProgress = (isFetching, userId) => {
 
 
 //ThunkCreator - function returns - thunk
-export const getUsers = (currentPage, pageSize) => {
+export const requestUsers = (requestedPage, pageSize) => {
     return (dispatch) => {
         //thunk(dispatch action) asyncronyzed function
         dispatch(setIsFetching(true));
+        dispatch(setCurrentPageAC(requestedPage))
 
         //getting data in api.js file
-        usersAPI.getUsers(currentPage, pageSize).then(data => {
+        usersAPI.getUsers(requestedPage, pageSize).then(data => {
             dispatch(setIsFetching(false));
             dispatch(setUsersAC(data.items));
             dispatch(setUsersTotalCountAC(data.totalCount))
@@ -141,7 +142,6 @@ export const unfollow = (userId) => {
             })
     }
 }
-
 
 
 export default usersReducer;

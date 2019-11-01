@@ -1,3 +1,4 @@
+//DEPRECATED by ProfileStatusWithHooks
 import React from 'react';
 import s from './ProfileInfo.module.css'
 

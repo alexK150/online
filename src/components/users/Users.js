@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import s from "./users.module.css";
 import userPhoto from "../../assets/images/man.jpg";
 import {NavLink} from "react-router-dom";

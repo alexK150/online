@@ -103,6 +103,7 @@ export const toggleFollowingProgress = (isFetching, userId) => {
 
 //ThunkCreator - function returns - thunk
 export const requestUsers = (requestedPage, pageSize) => {
+    debugger
     return (dispatch) => {
         //thunk(dispatch action) asyncronyzed function
         dispatch(setIsFetching(true));

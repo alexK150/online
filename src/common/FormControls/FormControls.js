@@ -1,5 +1,5 @@
-import React from 'react'
-import s from './FormControls.module.css'
+import React from 'react';
+import s from './FormControls.module.css';
 
 const FormControl = ({input, meta, child, ...props}) => {
     /*redux-form always sending in Field: meta(touched, error, warning)*/

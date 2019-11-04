@@ -1,12 +1,11 @@
 import React from 'react';
-import s from './Dialogs.module.css'
+import s from './Dialogs.module.css';
 import DialogItem from "./dialogItem/DialogItem";
-import Message from './message/Message'
+import Message from './message/Message';
 import {Redirect} from "react-router-dom";
 import {Field, reduxForm} from "redux-form";
 import {TextArea} from "../../common/FormControls/FormControls";
 import {maxLengthCreator, requiredField} from "../../validators/validators";
-
 
 const Dialogs = (props) => {
 
@@ -63,6 +62,5 @@ const AddMessageForm = (props) => {
 }
 
 const ReduxAddMessageForm = reduxForm({form: 'dialogAddMessageForm'})(AddMessageForm);
-
 
 export default Dialogs

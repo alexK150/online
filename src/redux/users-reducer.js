@@ -100,10 +100,9 @@ export const toggleFollowingProgress = (isFetching, userId) => {
     return {type: TOGGLE_IS_FOLLOWING_PROGRESS, isFetching, userId}
 }
 
-
 //ThunkCreator - function returns - thunk
 export const requestUsers = (requestedPage, pageSize) => {
-    debugger
+
     return (dispatch) => {
         //thunk(dispatch action) asyncronyzed function
         dispatch(setIsFetching(true));
@@ -143,6 +142,5 @@ export const unfollow = (userId) => {
             })
     }
 }
-
 
 export default usersReducer;

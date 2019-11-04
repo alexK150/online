@@ -2,7 +2,6 @@ import {getAuthUserData} from "./auth-reducer";
 
 const INITIALIZED_SUCCESS = 'INITIALIZED_SUCCESS';
 
-
 let initialState = {
     initialized: false
 };
@@ -33,9 +32,6 @@ export const initializeApp = () => (dispatch) => {
         .then(() => {
             dispatch(initializedSuccess())
         })
-
-
 }
-
 
 export default appReducer;

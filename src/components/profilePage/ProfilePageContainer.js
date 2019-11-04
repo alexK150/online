@@ -6,14 +6,13 @@ import {getStatus, getUserProfile, updateStatus} from "../../redux/profile-reduc
 import {withRouter} from "react-router-dom";
 import {compose} from "redux";
 
-
 class ProfilePageContainer extends React.Component {
 
     componentDidMount() {
         let userId = this.props.match.params.userId;
         if (!userId) {
             userId = this.props.authorisedUserId;
-            if (!userId){
+            if (!userId) {
                 this.props.history.push('/login')
             }
         }

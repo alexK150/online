@@ -8,7 +8,6 @@ import ProfilePageContainer from "./components/profilePage/ProfilePageContainer"
 import HeaderContainer from "./components/header/HeaderContainer";
 import LoginPage from "./components/login/LoginPage";
 import {connect} from "react-redux";
-import {getAuthUserData} from "./redux/auth-reducer";
 import {compose} from "redux";
 import {initializeApp} from "./redux/app-reducer";
 import Preloader from "./common/Preloader";
@@ -21,7 +20,7 @@ class App extends Component {
     }
 
     render() {
-        if (!this.props.initialized){
+        if (!this.props.initialized) {
             return <Preloader/>
         }
 
@@ -46,12 +45,12 @@ class App extends Component {
     }
 }
 
-const mapStateToProps = (state) =>({
+const mapStateToProps = (state) => ({
     initialized: state.app.initialized
 })
 
 export default compose(
     withRouter,
-        connect(mapStateToProps, {initializeApp}))
-        (App)
+    connect(mapStateToProps, {initializeApp}))
+(App)
 

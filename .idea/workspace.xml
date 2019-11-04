@@ -2,34 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cff88d1-bcb0-45a9-a7af-27a610559764" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/redux/profile-reducer.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/FormControls/FormControls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/FormControls/FormControls.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/Preloader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Preloader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dialogs/Dialogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/Dialogs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dialogs/DialogsContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/DialogsContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dialogs/dialogItem/DialogItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/dialogItem/DialogItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dialogs/message/Message.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/message/Message.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/login/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login/LoginForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/login/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login/LoginPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navBar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navBar/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profilePage/ProfilePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilePage/ProfilePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profilePage/ProfilePageContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilePage/ProfilePageContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profilePage/posts/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilePage/posts/Posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profilePage/posts/PostsContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilePage/posts/PostsContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profilePage/posts/post/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilePage/posts/post/Post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profilePage/profileInfo/ProfileStatusWithHooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilePage/profileInfo/ProfileStatusWithHooks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/Users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hoc/withAuthRedirect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/withAuthRedirect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/app-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/app-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/sidebar-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/sidebar-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/users-selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +35,7 @@
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
     <property name="node.js.selected.package.standard" value="D:\FRONT-END\JS\REACT\Курсы\IT-KAMASUTRA\online\node_modules\eslint" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -93,7 +69,59 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="Jest.after deleting length shouldn't be decrement if id is incorrect">
+    <configuration name="after delete function length of messages should be decrement" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/redux/profile-reducer.test.js" />
+      <test-names>
+        <test-name value="after delete function length of messages should be decrement" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="after deleting length shouldn't be decrement if id is incorrect" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/redux/profile-reducer.test.js" />
+      <test-names>
+        <test-name value="after deleting length shouldn't be decrement if id is incorrect" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="length of posts should be incremented" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/redux/profile-reducer.test.js" />
+      <test-names>
+        <test-name value="length of posts should be incremented" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="message of new post should be correct" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/redux/profile-reducer.test.js" />
+      <test-names>
+        <test-name value="message of new post should be correct" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -107,6 +135,14 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.after deleting length shouldn't be decrement if id is incorrect" />
+        <item itemvalue="Jest.after delete function length of messages should be decrement" />
+        <item itemvalue="Jest.message of new post should be correct" />
+        <item itemvalue="Jest.length of posts should be incremented" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -177,14 +213,8 @@
       <workItem from="1571335901289" duration="97000" />
       <workItem from="1572333512365" duration="2403000" />
       <workItem from="1572590341687" duration="7832000" />
-      <workItem from="1572859826009" duration="2236000" />
-    </task>
-    <task id="LOCAL-00001" summary="init v1">
-      <created>1563442382059</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1563442382059</updated>
+      <workItem from="1572859826009" duration="4133000" />
+      <workItem from="1572876541299" duration="740000" />
     </task>
     <task id="LOCAL-00002" summary="init v2 added css-modules, Components: Dialogs, Dialogs, Post, Posts, ProfilePage">
       <created>1564071673260</created>
@@ -522,7 +552,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572596553162</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="init v50 Refactor Posts Component memo">
+      <created>1572862669561</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1572862669562</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,7 +579,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init v25  +Preloader" />
     <MESSAGE value="init v26  +ProfilePageContainer (profile from API)" />
     <MESSAGE value="init v27  +withRouter on ProfilePageContainer" />
     <MESSAGE value="init v28  +login (cookie)" />
@@ -567,6 +603,7 @@
     <MESSAGE value="init v47 Refactor (+users-selectors &amp; selection of Page in Users UI)" />
     <MESSAGE value="init v48 Refactor (+reselect lib)" />
     <MESSAGE value="init v49 Refactor ProfileStatus class Comp by ProfileStatusWithHooks func Comp" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v49 Refactor ProfileStatus class Comp by ProfileStatusWithHooks func Comp" />
+    <MESSAGE value="init v50 Refactor Posts Component memo" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v50 Refactor Posts Component memo" />
   </component>
 </project>

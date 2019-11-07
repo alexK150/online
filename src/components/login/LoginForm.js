@@ -4,33 +4,14 @@ import {Input} from "../../common/FormControls/FormControls";
 import {requiredField} from "../../validators/validators";
 import style from '../../common/FormControls/FormControls.module.css';
 
-const LoginForm = (props) => {
+const LoginForm = ({handleSubmit, error}) => {
     return <>
-        <form onSubmit={props.handleSubmit}>
-            <div>
-                <Field type="text"
-                       placeholder={'Email'}
-                       component={Input}
-                       name={'email'}
-                       validate={[requiredField]}
-                />
-            </div>
-            <div>
-                <Field type="password"
-                       placeholder={'Password'}
-                       component={Input}
-                       name={'password'}
-                       validate={[requiredField]}
-                />
-            </div>
-            <div>
-                <Field component={Input}
-                       name={'rememberMe'}
-                       type={'checkbox'}
-                /> remember me
-            </div>
+        <form onSubmit={handleSubmit}>
+            {createField('Email', 'email', [requiredField], Input)}
+            {createField('Password', 'password', [requiredField], Input, {type: 'password'})}
+            {createField(null, 'rememberMe', [], Input, {type: 'checkbox'}, 'remember me')}
             <div className={style.formSummaryError}>
-                {props.error}
+                {error}
             </div>
             <div>
                 <button>Login</button>
@@ -39,10 +20,17 @@ const LoginForm = (props) => {
     </>
 }
 
-const ReduxLoginForm = reduxForm({
+export const ReduxLoginForm = reduxForm({
     //a unique name for the form
     form: 'login'
 })(LoginForm)
 
-
-export default ReduxLoginForm;
+export const createField = (placeholder, name, validator, component, props = {}, text = '') =>
+    <div>
+        <Field placeholder={placeholder}
+               component={component}
+               name={name}
+               validate={validator}
+               {...props}
+        />{text}
+    </div>

@@ -50,7 +50,6 @@ const profileReducer = (state = initialState, action) => {
         default:
             return state;
     }
-
 }
 
 export const addPostActionCreator = (newPostText) => {
@@ -66,11 +65,10 @@ export const setUserProfile = (profile) => {
     }
 }
 //Thunk for UserProfile
-export const getUserProfile = (userId) => (dispatch) => {
-    usersAPI.getProfile(userId)
-        .then(response => {
-            dispatch(setUserProfile(response.data));
-        })
+export const getUserProfile = (userId) => async (dispatch) => {
+    let response = await usersAPI.getProfile(userId);
+
+    dispatch(setUserProfile(response.data));
 }
 //Action Creator for status
 export const setStatus = (statusText) => {
@@ -83,21 +81,18 @@ export const deletePost = (postId) => {
 }
 
 //Thunk for getting status
-export const getStatus = (userId) => (dispatch) => {
+export const getStatus = (userId) => async (dispatch) => {
+    let response = await profileAPI.getStatus(userId);
 
-    profileAPI.getStatus(userId)
-        .then(response => {
-            dispatch(setStatus(response.data));
-        })
+    dispatch(setStatus(response.data));
 }
 //Thunk for update status
-export const updateStatus = (status) => (dispatch) => {
-    profileAPI.updateStatus(status)
-        .then(response => {
-            if (response.data.resultCode === 0) {
-                dispatch(setStatus(status));
-            }
-        })
+export const updateStatus = (status) => async (dispatch) => {
+    let response = await profileAPI.updateStatus(status);
+
+    if (response.data.resultCode === 0) {
+        dispatch(setStatus(status));
+    }
 }
 
 export default profileReducer;

@@ -16,7 +16,7 @@ const Users = ({currentPage, totalUsersCount, pageSize, onPageChanged, ...props}
             currentPage={currentPage}
             onPageChanged={onPageChanged}
             pageSize={pageSize}
-            totalUsersCount={totalUsersCount}
+            totalItemsCount={totalUsersCount}
         />
         {
             props.users.map(u => <User
@@ -28,6 +28,6 @@ const Users = ({currentPage, totalUsersCount, pageSize, onPageChanged, ...props}
             />)
         }
     </div>
-}
+};
 
 export default Users;

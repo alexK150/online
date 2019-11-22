@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cff88d1-bcb0-45a9-a7af-27a610559764" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/profilePage/profileInfo/ProfileStatus.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/pagination/Pagination.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/pagination/Pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/pagination/Pagination.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/pagination/Pagination.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/pagination/Pagination.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/Users.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.ProfileStatus component.callback should be called">
+  <component name="RunManager" selected="npm.npm start">
     <configuration name="ProfileStatus component.after creation &lt;input&gt; shouldn't be displayed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -244,14 +244,8 @@
       <workItem from="1573211412841" duration="1381000" />
       <workItem from="1573226126371" duration="1692000" />
       <workItem from="1573323281564" duration="111000" />
-      <workItem from="1573499051475" duration="4904000" />
-    </task>
-    <task id="LOCAL-00004" summary="init v4 mapped post and message elements">
-      <created>1564588608161</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1564588608161</updated>
+      <workItem from="1573499051475" duration="5451000" />
+      <workItem from="1574408693799" duration="2194000" />
     </task>
     <task id="LOCAL-00005" summary="init v5 refactor messages and dialogs">
       <created>1564776579784</created>
@@ -589,7 +583,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573133578629</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="init v53 jest tests for ProfileStatus Component">
+      <created>1573504635370</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1573504635373</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,7 +610,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init v28  +login (cookie)" />
     <MESSAGE value="init v29  follow/unfollow connected to API" />
     <MESSAGE value="init v30  DAL API axios +api.js" />
     <MESSAGE value="init v31  button disabled (follow/unfollow)" />
@@ -634,6 +634,7 @@
     <MESSAGE value="init v50 Refactor Posts Component memo" />
     <MESSAGE value="init v51 Written tests to profile-reducer" />
     <MESSAGE value="init v52 Refactor (proper destructuring, proper renaming, split some components)" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v52 Refactor (proper destructuring, proper renaming, split some components)" />
+    <MESSAGE value="init v53 jest tests for ProfileStatus Component" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v53 jest tests for ProfileStatus Component" />
   </component>
 </project>

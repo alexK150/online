@@ -2,9 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import Navbar from "./components/navBar/Navbar";
 import {BrowserRouter, Route, withRouter} from "react-router-dom";
-import DialogsContainer from "./components/dialogs/DialogsContainer";
 import UsersContainer from "./components/users/UsersContainer";
-import ProfilePageContainer from "./components/profilePage/ProfilePageContainer";
 import HeaderContainer from "./components/header/HeaderContainer";
 import LoginPage from "./components/login/LoginPage";
 import {connect, Provider} from "react-redux";
@@ -12,6 +10,11 @@ import {compose} from "redux";
 import {initializeApp} from "./redux/app-reducer";
 import Preloader from "./common/Preloader";
 import store from "./redux/redux-store";
+import {withSuspense} from './hoc/withSuspense';
+
+//Lazy Load
+const DialogsContainer = React.lazy(() => import('./components/dialogs/DialogsContainer'));
+const ProfilePageContainer = React.lazy(() => import('./components/profilePage/ProfilePageContainer'));
 
 class App extends Component {
 
@@ -29,12 +32,10 @@ class App extends Component {
                 <HeaderContainer/>
                 <Navbar/>
                 <div className='app-wrapper-content'>
-                    <Route path='/dialogs' render={() =>
-                        <DialogsContainer/>}
-                    />
-                    <Route path='/profile/:userId?' render={() =>
-                        <ProfilePageContainer/>}
-                    />
+                    <Route path='/dialogs'
+                           render={withSuspense(DialogsContainer)}/>
+                    <Route path='/profile/:userId?'
+                           render={withSuspense(ProfilePageContainer)}/>
                     <Route path='/users' render={() =>
                         <UsersContainer/>}/>
                     <Route path='/login' render={() =>
@@ -54,10 +55,10 @@ const AppContainer = compose(
     connect(mapStateToProps, {initializeApp}))
 (App)
 
-const MainApp = (props) =>{
+const MainApp = (props) => {
     return <BrowserRouter>
         <Provider store={store}>
-            <AppContainer />
+            <AppContainer/>
         </Provider>
     </BrowserRouter>
 }

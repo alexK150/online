@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cff88d1-bcb0-45a9-a7af-27a610559764" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common/pagination/Pagination.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/withSuspense.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/pagination/Pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/pagination/Pagination.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/pagination/Pagination.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/pagination/Pagination.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/Users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -245,14 +241,7 @@
       <workItem from="1573226126371" duration="1692000" />
       <workItem from="1573323281564" duration="111000" />
       <workItem from="1573499051475" duration="5451000" />
-      <workItem from="1574408693799" duration="2194000" />
-    </task>
-    <task id="LOCAL-00005" summary="init v5 refactor messages and dialogs">
-      <created>1564776579784</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1564776579784</updated>
+      <workItem from="1574408693799" duration="5654000" />
     </task>
     <task id="LOCAL-00006" summary="init v6 All data moved to index.js">
       <created>1565019147651</created>
@@ -590,7 +579,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573504635373</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="init v54 Paginator fixed, +Pagination.test">
+      <created>1574411947078</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1574411947080</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -610,7 +606,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init v29  follow/unfollow connected to API" />
     <MESSAGE value="init v30  DAL API axios +api.js" />
     <MESSAGE value="init v31  button disabled (follow/unfollow)" />
     <MESSAGE value="init v32  +redux-thunk for Users.js" />
@@ -635,6 +630,7 @@
     <MESSAGE value="init v51 Written tests to profile-reducer" />
     <MESSAGE value="init v52 Refactor (proper destructuring, proper renaming, split some components)" />
     <MESSAGE value="init v53 jest tests for ProfileStatus Component" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v53 jest tests for ProfileStatus Component" />
+    <MESSAGE value="init v54 Paginator fixed, +Pagination.test" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v54 Paginator fixed, +Pagination.test" />
   </component>
 </project>
